@@ -1,0 +1,4 @@
+PyMySql
+requests
+isodate
+pandas

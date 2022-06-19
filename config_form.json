@@ -1,0 +1,17 @@
+{
+    "youtube": {
+        "api_key": "[**YOUTUBE_API_KEY**]",
+        "channels": [
+            "[*CHANNELS_TO_ANALYST**]"
+        ],
+        "max_results": 50
+    },
+    "database": {
+        "database": "youtube_recorder",
+        "host": "localhost",
+        "user": "root",
+        "passwd": "[**MYSQL_PASSWORD**]",
+        "charset": "utf8mb4"
+    },
+    "cycle": 30
+}
