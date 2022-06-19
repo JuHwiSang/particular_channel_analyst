@@ -14,7 +14,7 @@ def main():
     database.commit()
     database.close()
     
-    logger.info(f"used quota: {youtube.used_quota}")
+    logger.debug(f"used quota: {youtube.used_quota}")
 
 if __name__ == "__main__":
     main()

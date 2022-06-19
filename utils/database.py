@@ -1,3 +1,4 @@
+from ctypes import Union
 from typing import Iterable, Mapping
 from pymysql.cursors import Cursor, DictCursor
 from pymysql.connections import Connection
@@ -79,7 +80,7 @@ class Database:
         self._db = pymysql.connect(**kwargs)
         self._cursor = self._db.cursor(DictCursor)
 
-    def execute(self, sql: str, querys: Iterable | Mapping = ()) -> DataFrame:
+    def execute(self, sql: str, querys: Union[Iterable, Mapping] = ()) -> DataFrame:
         # logger.debug(f"{sql} ### {querys}")
         self._cursor.execute(sql, querys)
         return DataFrame(self._cursor.fetchall())

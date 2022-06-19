@@ -2,7 +2,7 @@
 from utils.get_config import config
 from utils.database import Database
 
-CREATE_DATABASE = """CREATE DATABASE IF NOT EXISTS {database};"""
+CREATE_DATABASE = """CREATE DATABASE IF NOT EXISTS {database} default character set utf8mb4 collate utf8mb4_general_ci;"""
 USE_DATABASE = """USE {database}"""
 CREATE_TABLE_CHANNEL = """CREATE TABLE IF NOT EXISTS channel (
     channel_id varchar(24) primary key,
@@ -35,6 +35,7 @@ CREATE_TABLE_VIDEO_RECORD = """CREATE TABLE IF NOT EXISTS video_record (
     comment_count integer,
     record_time integer
 );"""
+CONVERT_
 
 
 def create():

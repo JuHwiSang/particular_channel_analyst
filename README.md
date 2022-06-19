@@ -1,4 +1,4 @@
-###  initialization
+### initialization
 1. set a mysql enviornment.
 2. get a youtube api key.
 3. make a config.json file based on config_form.json file.
