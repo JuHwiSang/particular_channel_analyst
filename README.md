@@ -1,7 +1,10 @@
 ### initialization
-1. set a mysql enviornment.
-2. get a youtube api key.
-3. make a config.json file based on config_form.json file.
-4. install required packages: ```pip install -r requirements.txt```
-5. create a database: ```python3 create_database.py```
-6. register at crontab: ```*/20 * * * * cd [**PATH**]; source ./venv/bin/activate; python3 record.py```
+1. Set a mysql enviornment.
+2. Make a youtube api key.
+3. Make a config.json file based on config_form.json file.
+4. Install required packages: ```pip install -r requirements.txt```
+5. Create a database: ```python3 create_database.py```
+6. Run record.py with crontab
+
+### 아아아아아~
+1. 나는 누구, 누구~ 왜 이걸 만들고 있는걸까~~
