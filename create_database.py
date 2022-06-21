@@ -35,7 +35,7 @@ CREATE_TABLE_VIDEO_RECORD = """CREATE TABLE IF NOT EXISTS video_record (
     comment_count integer,
     record_time integer
 );"""
-CONVERT_
+
 
 
 def create():
